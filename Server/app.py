@@ -14,6 +14,9 @@ db.init_app(app)
 with app.app_context():
     db.create_all()
 
+# In programming, a decorator is a design pattern and a structural pattern that allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class. 
+
+# The following method act as the decorator. 
 @app.route('/')
 def welcome():
     return 'Welcome to Home'

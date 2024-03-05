@@ -23,3 +23,5 @@ class Login(Resource):
             return {"msg": "Wrong Credentials"}, 401
         except Exception as e:
             return {"msg": "Something went wrong", "error": str(e)}, 500
+
+# flask_restful simplifies the development of RESTful APIs

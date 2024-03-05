@@ -1,4 +1,5 @@
 from flask_sqlalchemy import SQLAlchemy
+# SQLAlchemy is an Object-Relational Mapping (ORM) library. It provides a way to interact with relational databases using Python code instead of writing raw SQL queries.
 
 db = SQLAlchemy()
 

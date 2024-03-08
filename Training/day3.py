@@ -32,6 +32,8 @@
 # help("topics")
 # help("NUMBERS")
 # help("INTEGER")
+# help(print)
+# help(input)
 
 # While loop
 

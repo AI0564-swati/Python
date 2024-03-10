@@ -50,11 +50,20 @@
 
 # convert(15)
 
-def even_odd(n):
-  if(n %2 == 0):
-    print("Even")
-  else:
-    print("Odd")
+# def even_odd(n):
+#   if(n %2 == 0):
+#     print("Even")
+#   else:
+#     print("Odd")
 
-user_input = int(input("Enter No: "))
-even_odd(user_input)
+# user_input = int(input("Enter No: "))
+# even_odd(user_input)
+
+def check_odd_even():
+    num = int(input("Enter No: "))
+    if num % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+check_odd_even()

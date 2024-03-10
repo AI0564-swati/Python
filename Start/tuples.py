@@ -13,7 +13,9 @@
 # tup.index(el)
 # tup.count(el)
 
-grade = ("C", "D", "A", "A", "B", "B", "A")
+grade = ("C", "D", 9.45, "A", "A", 1, 2, 5, "B", "B", "A")
+print(grade)
+print(type(grade))
 print(grade.count("A"))
 
 gradeList = ["C", "D", "A", "A", "B", "B", "A"]

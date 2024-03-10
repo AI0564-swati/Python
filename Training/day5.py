@@ -113,28 +113,28 @@
 # print(depts)
 
 # Nested dictionary
-no = int(input("Enter no : "))
-d1 = {}
-for i in range(1, no+1):
-  print()
-  k = input("Enter product name : " + str(i) + ":")
-  Qty = int(input("Enter Qty : "))
-  Price = int(input("Enter price : ")) 
-  d1.update({k:{'Qty' : Qty, 'Price' : Price}})
-print(d1)
-print()
-GT = 0
-Q = 0
-P = 0
-for key1, val1 in d1.items():
-  print("\n", key1)
-  if type(val1) is dict:
-    for key2, val2 in val1.items():
-      print(key2,":",val2)
-      if key2 == 'Qty':
-        Q = val2
-      else:
-        P = val2
-    print("Total : ", Q*P)
-    GT = GT + (Q*P)
-print("Grand Total : ", GT)
+# no = int(input("Enter no : "))
+# d1 = {}
+# for i in range(1, no+1):
+#   print()
+#   k = input("Enter product name : " + str(i) + ":")
+#   Qty = int(input("Enter Qty : "))
+#   Price = int(input("Enter price : ")) 
+#   d1.update({k:{'Qty' : Qty, 'Price' : Price}})
+# print(d1)
+# print()
+# GT = 0
+# Q = 0
+# P = 0
+# for key1, val1 in d1.items():
+#   print("\n", key1)
+#   if type(val1) is dict:
+#     for key2, val2 in val1.items():
+#       print(key2,":",val2)
+#       if key2 == 'Qty':
+#         Q = val2
+#       else:
+#         P = val2
+#     print("Total : ", Q*P)
+#     GT = GT + (Q*P)
+# print("Grand Total : ", GT)

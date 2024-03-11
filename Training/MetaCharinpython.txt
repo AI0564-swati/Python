@@ -1,0 +1,21 @@
+1. . (Dot)	   : Matches any single character except newline \n.
+2. ^ (Caret) : Matches the start of the string.
+3. $ (Dollar): Matches the end of the string.
+4. * (Star)   : Matches zero or more occurrences of the preceding character.
+5. + (Plus)  : Matches one or more occurrences of the preceding character.
+6. ? (Question Mark): Matches zero or one occurrence of the preceding character.
+7. \ (Backslash): Escapes special characters, or indicates a special sequence.
+8. [] (Square Brackets): Matches any single character within the brackets.
+9. | (Vertical Bar): Acts as an OR operator, matches either the expression before or after it.
+10. () (Parentheses): Groups regular expressions together. Also used for capturing groups.
+11. {} (Curly Braces): Specifies the number of occurrences of the preceding character or group.
+12. () (Parentheses): Used for grouping and capturing parts of the matched string.
+13. \b (Word Boundary): Matches a word boundary, such as whitespace or punctuation.
+14. \d: Matches any digit character (0-9).
+15. \D: Matches any non-digit character.
+16. \s: Matches any whitespace character.
+17. \S: Matches any non-whitespace character.
+18. \w: Matches any alphanumeric character (word character).
+19. \W: Matches any non-alphanumeric character.
+20. \A: Matches the start of the string, but unlike ^, it's unaffected by the re.MULTILINE flag.
+21. \Z: Matches the end of the string, but unlike $, it's unaffected by the re.MULTILINE flag.

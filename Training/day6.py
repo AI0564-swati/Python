@@ -83,16 +83,16 @@ Used to find specific pattern/sequence in strings
 '''
 
 # escape method adds a \ before each special character and space
-import re # re - module
+# import re # re - module
 # print(re.escape(input("Enter a qualified website : ")))
-sentence = re.escape(input("Enter a sentence : "))
-pattern = input("Enter pattern to search : ")
-match = re.search(pattern, sentence)
+# sentence = re.escape(input("Enter a sentence : "))
+# pattern = input("Enter pattern to search : ")
+# match = re.search(pattern, sentence)
 
-if match:
-  print("Found at :", match.start(), " index")
-else:
-  print("Not Found")
+# if match:
+#   print("Found at :", match.start(), " index")
+# else:
+#   print("Not Found")
 
 # To find only capital and small letters
 # pattern = '[A-Za-z]+'

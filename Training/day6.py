@@ -105,3 +105,7 @@ Used to find specific pattern/sequence in strings
 # To find any particular digit 
 # pattern = r'\d{3}'
 # match = re.findall(pattern, sentence)
+
+# To find any alpha numeric character 
+# pattern = r'b[pP]\w'
+# match = re.findall(pattern, sentence)

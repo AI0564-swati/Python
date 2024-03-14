@@ -96,6 +96,7 @@
 # Eg:
 # print(1 + 2) # adds in case of numbers
 # print("Swati" + "Tanu") # concatenates in case of strings
+# print([1,2,3] + [4,5,6]) # merges in case of lists
 
 # class Account:
 #   def __init__(self, bal, acc):

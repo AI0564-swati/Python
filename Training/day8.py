@@ -30,8 +30,8 @@
 # Example 3:
 # BeautifulSoup - external module, using this we can handle html tags, classes and id.
 
-from urllib.request import urlopen
-from bs4 import BeautifulSoup 
+# from urllib.request import urlopen
+# from bs4 import BeautifulSoup 
 
 # html = urlopen('https://www.wikipedia.org')
 # bs = BeautifulSoup(html, 'html.parser')
@@ -83,8 +83,8 @@ from bs4 import BeautifulSoup
 # print("Content: ", res._content)
 
 
-import requests
-from bs4 import BeautifulSoup
+# import requests
+# from bs4 import BeautifulSoup
 
 # Printing Date, Time and Topic
 # res = requests.get('https://www.python.org/')
